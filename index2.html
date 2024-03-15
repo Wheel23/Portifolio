@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TESTA</title>
+</head>
+<body>
+    <div class="fundo.div">
+        <h1>Testes para testar </h1>
+        <p>pagina diferenciada</p>
+
+<button class="hamburgaobtn">hamburgue</button>
+<script>
+const submit_btn = document.querySelector(".hamburgaobtn");
+submit_btn.addEventListener("click", () => {
+    submit_btn.classList.add("submiting");
+    submit_btn.innerHTML = "";
+    setTimeout( () => {
+        submit_btn.classList.remove("submiting");
+        submit_btn.innerHTML = "Hamburgado";
+
+    },3000)
+})
+</script>
+</body>
+</html>
