@@ -1,0 +1,35 @@
+.voltar a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vh;
+}
+
+.wallpaper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-image: url("paia.jpg");
+    filter: blur(8px);
+    background-size: cover;
+    z-index: -1;
+}
+.burguer{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    width: 250px;
+}
+
+.Imagem img{
+position: absolute;
+width: 15vh;
+
+}
+
+.Trabalhos img{
+   margin-left: 15%;
+   margin-top: 10%;
+   width: 40vh;
+   height: 50vh;
+}
